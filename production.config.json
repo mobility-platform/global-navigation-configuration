@@ -1,9 +1,0 @@
-{
-  "API_URL": "https://webapp-mobilityplatformgroups-dev-001.azurewebsites.net",
-  "NOTIFICATIONS_API_URL": "http://localhost:9000",
-  "MYSHOWCASE_URL": "https://mobility-platform.becoms.tech",
-  "BACKOFFICE_URL": "https://stbomobilityplatform001.z6.web.core.windows.net",
-  "BACKOFFICE_LOGO": "https://stbomobilityplatform001.z6.web.core.windows.net/logo192.png",
-  "MYINSPECTION_URL": "https://myinspection-bo-dev.azurewebsites.net",
-  "MYINSPECTION_LOGO": "https://firebasestorage.googleapis.com/v0/b/effidrive-967c0.appspot.com/o/application-launcher%2F61f8514e339ede3de5229a1a08883a9c.png?alt=media"
-}
