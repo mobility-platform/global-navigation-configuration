@@ -1,9 +1,41 @@
 {
-  "API_URL": "https://webapp-mobilityplatformgroups-dev-001.azurewebsites.net",
-  "NOTIFICATIONS_API_URL": "http://localhost:9000",
-  "MYSHOWCASE_URL": "https://mobility-platform.becoms.tech",
-  "BACKOFFICE_URL": "https://stbomobilityplatform001.z6.web.core.windows.net",
-  "BACKOFFICE_LOGO": "https://stbomobilityplatform001.z6.web.core.windows.net/logo192.png",
-  "MYINSPECTION_URL": "https://myinspection-bo-dev.azurewebsites.net",
-  "MYINSPECTION_LOGO": "https://firebasestorage.googleapis.com/v0/b/effidrive-967c0.appspot.com/o/application-launcher%2F61f8514e339ede3de5229a1a08883a9c.png?alt=media"
+  "themeApiUrl": "https://webapp-mobilityplatformgroups-dev-001.azurewebsites.net/themes/current",
+  "userApiUrl": "https://webapp-mobilityplatformgroups-dev-001.azurewebsites.net/users",
+  "profileUrl": "https://cdn-mobilityplatformgroups-dev-001.azureedge.net/users/me",
+  "notificationsApiUrl": "http://localhost:9000/v1/notifications",
+  "sections": [
+    {
+      "title": "Global",
+      "links": [
+        {
+          "title": "MyShowcase",
+          "href": "https://mobility-platform.becoms.tech/",
+          "icon": "<svg stroke='currentColor' fill='none' stroke-width='2' viewBox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' height='1em' width='1em'><path d='M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z'/></svg>"
+        },
+        {
+          "title": "MyShop",
+          "href": "https://myshop.services.michelin.com/",
+          "icon": "<svg stroke='currentColor' fill='none' stroke-width='2' viewBox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' height='1em' width='1em'><path d='M3 3h7v7H3zM14 3h7v7h-7zM14 14h7v7h-7zM3 14h7v7H3z'/></svg>"
+        }
+      ]
+    },
+    {
+      "title": "Apps",
+      "requiresAuthentification": true,
+      "links": [
+        {
+          "title": "Mobility Platform",
+          "href": "https://cdn-mobilityplatformgroups-dev-001.azureedge.net",
+          "icon": "https://cdn-mobilityplatformgroups-dev-001.azureedge.net/logo192.png",
+          "requiresAuthentification": true
+        },
+        {
+          "title": "MyInspection",
+          "href": "https://myinspection-bo-dev.azurewebsites.net",
+          "icon": "https://firebasestorage.googleapis.com/v0/b/effidrive-967c0.appspot.com/o/application-launcher%2F61f8514e339ede3de5229a1a08883a9c.png?alt=media",
+          "requiresAuthentification": true
+        }
+      ]
+    }
+  ]
 }
