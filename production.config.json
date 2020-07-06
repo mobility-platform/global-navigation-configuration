@@ -2,7 +2,7 @@
   "themeApiUrl": "https://mobility-plateform.azurewebsites.net/themes/current",
   "userApiUrl": "https://mobility-plateform.azurewebsites.net/users",
   "profileUrl": "https://cdn-mobility-platform.azureedge.net/users/me",
-  "notificationsApiUrl": "https://webapp-mobilityplatformnotifications-dev-001.azurewebsites.net/v1/notifications",
+  "notificationsApiUrl": "https://mobility-platform-notifications.azurewebsites.net/v1/notifications",
   "sections": [
     {
       "title": "Global",
