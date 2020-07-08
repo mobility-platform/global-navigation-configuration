@@ -1,7 +1,7 @@
 {
-  "themeApiUrl": "https://mobility-plateform.azurewebsites.net/themes/current",
-  "userApiUrl": "https://mobility-plateform.azurewebsites.net/users",
-  "profileUrl": "https://cdn-mobility-platform.azureedge.net/users/me",
+  "themeApiUrl": "https://myapi.services.michelin.com/themes/current",
+  "userApiUrl": "https://myapi.services.michelin.com/users",
+  "profileUrl": "https://mymobility.services.michelin.com/users/me",
   "notificationsApiUrl": "https://mobility-platform-notifications.azurewebsites.net/v1/notifications",
   "sections": [
     {
@@ -9,7 +9,7 @@
       "links": [
         {
           "title": "MyShowcase",
-          "href": "https://mobility-platform.becoms.tech/",
+          "href": "http://myportal.services.michelin.com/",
           "icon": "<svg stroke='currentColor' fill='none' stroke-width='2' viewBox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' height='1em' width='1em'><path d='M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z'/></svg>"
         },
         {
@@ -25,13 +25,13 @@
       "links": [
         {
           "title": "Mobility Platform",
-          "href": "https://cdn-mobility-platform.azureedge.net",
-          "icon": "https://cdn-mobility-platform.azureedge.net/logo192.png",
+          "href": "https://mymobility.services.michelin.com",
+          "icon": "https://mymobility.services.michelin.com/logo192.png",
           "requiresAuthentification": true
         },
         {
           "title": "MyInspection",
-          "href": "https://myinspection-bo-test.azurewebsites.net",
+          "href": "https://myinspection.services.michelin.com",
           "icon": "https://firebasestorage.googleapis.com/v0/b/effidrive-967c0.appspot.com/o/application-launcher%2F61f8514e339ede3de5229a1a08883a9c.png?alt=media",
           "requiresAuthentification": true
         }
