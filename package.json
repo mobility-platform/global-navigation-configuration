@@ -1,6 +1,6 @@
 {
   "name": "@mobility-platform/global-navigation-configuration",
-  "version": "2.2.4",
+  "version": "2.3.0",
   "description": "Configuration files for Michelin Global Navigation",
   "scripts": {
     "postversion": "git push --all && git push --tag"
